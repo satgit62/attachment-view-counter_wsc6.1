@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templatelisteners>
+    <templatelistener>
+        <templatename>messageAttachment</templatename>
+        <eventname>afterAttachmentMetaData</eventname>
+        <templatecode><![CDATA[
+            {include file='attachmentViews' attachmentID=$attachment->attachmentID}
+        ]]></templatecode>
+    </templatelistener>
+</templatelisteners>

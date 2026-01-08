@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package>
+    <name>Attachment View Counter</name>
+    <identifier>com.example.attachmentViews</identifier>
+    <version>1.0.0</version>
+    <date>2026-01-01</date>
+    <author>Example</author>
+    <requiredpackages>
+        <requiredpackage>com.woltlab.wcf</requiredpackage>
+    </requiredpackages>
+</package>
