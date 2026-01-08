@@ -41,6 +41,33 @@ com.example.attachmentViews/
 ```
 
 
+# ZIP korrekt erstellen
+
+* Linux / macOS
+
+Im Plugin-Verzeichnis:
+```
+zip -r attachmentViews.zip \
+package.xml \
+install.sql \
+eventListener.xml \
+templateListener.xml \
+files \
+templates
+```
+
+# Windows (Explorer)
+
+Alle oben genannten Dateien & Ordner markieren
+
+Rechtsklick → „Senden an → ZIP-komprimierter Ordner“
+
+ZIP umbenennen, z. B.:
+```
+attachment-view-counter_1.0.0.zip
+```
+
+
 # Installation im WoltLab 
 
 ACP → Konfiguration → Pakete → Paket installieren
@@ -51,7 +78,7 @@ ZIP auswählen.
 
 Installieren
 
-✅ Erfolgsanzeichen
+# Erfolgsanzeichen
 
 Es erscheint keine Fehlermeldung.
 
