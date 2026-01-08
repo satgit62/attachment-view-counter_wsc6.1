@@ -1,5 +1,5 @@
 
-# attachment-view-counter
+# Attachment-view-counter
 
 Nach meinen Recherchen scheint es im offiziellen WoltLab-Plugin-Store kein Plugin zu geben, das die Anzahl der Bildbetrachter direkt anzeigt (also Views pro Bild/Anhang). 
 Die meisten vorhandenen Plugins beschäftigen sich eher mit allgemeinen Besucherstatistiken oder dem Tracking von Seitenbesuchen und nicht speziell mit einzelnen Bildern.
