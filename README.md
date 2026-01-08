@@ -4,18 +4,20 @@
 Nach meinen Recherchen scheint es im offiziellen WoltLab-Plugin-Store kein Plugin zu geben, das die Anzahl der Bildbetrachter direkt anzeigt (also Views pro Bild/Anhang). 
 Die meisten vorhandenen Plugins beschäftigen sich eher mit allgemeinen Besucherstatistiken oder dem Tracking von Seitenbesuchen und nicht speziell mit einzelnen Bildern.
 
+Das Ziel besteht darin, ein eigenes kleines Plugin/Paket zu erstellen, das beim Anklicken eines Anhangs einen Zähler in der Datenbank erhöht und diesen anschließend im Template ausgibt.
+
 # Grundidee / Architektur
 
-Ziel:
+* Ziel:
 Jedes Mal, wenn ein Bild (Anhang) im Forum angezeigt wird, wird ein Zähler erhöht und diese Zahl im Template ausgegeben.
 
-Technische Bausteine:
+* Technische Bausteine:
 
-Eigene DB-Tabelle für View-Counts
+- Eigene DB-Tabelle für View-Counts
 
-Event Listener / Controller-Hook beim Anzeigen eines Anhangs
+- Event Listener / Controller-Hook beim Anzeigen eines Anhangs
 
-Template-Erweiterung (TPL)
+- Template-Erweiterung (TPL)
 
 # Finale Plugin-Struktur 
 
@@ -38,3 +40,21 @@ com.example.attachmentViews/
 
 ```
 
+
+# Installation im WoltLab 
+
+ACP → Konfiguration → Pakete → Paket installieren
+
+„Paket hochladen” auswählen.
+
+ZIP auswählen.
+
+Installieren
+
+✅ Erfolgsanzeichen
+
+Es erscheint keine Fehlermeldung.
+
+Die Tabelle „wcf1_attachment_view“ existiert.
+
+Das Plugin erscheint in der Paketliste.
